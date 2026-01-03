@@ -84,6 +84,7 @@ Cloud-deployable architecture
 
 The system simulates real-time intrusion detection by randomly sampling unseen network flow records from the dataset and classifying them on the fly.
 This approach emulates how a trained NIDS would analyze incoming traffic without performing direct packet capture.
+
 🧪 Results Summary
 
 Achieved very high detection accuracy on the selected dataset
@@ -109,6 +110,7 @@ Data Processing: Pandas, NumPy
 Visualization: Matplotlib, Seaborn
 
 📂 Project Structure
+
 AI-Based-Network-Intrusion-Detection-System/
 │── nids_main.py
 │── README.md
@@ -116,6 +118,7 @@ AI-Based-Network-Intrusion-Detection-System/
 │── .gitignore
 
 ▶️ How to Run Locally
+
 pip install -r requirements.txt
 streamlit run nids_main.py
 
