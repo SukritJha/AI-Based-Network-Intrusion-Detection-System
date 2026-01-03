@@ -112,14 +112,19 @@ Visualization: Matplotlib, Seaborn
 📂 Project Structure
 
 AI-Based-Network-Intrusion-Detection-System/
+
 │── nids_main.py
+
 │── README.md
+
 │── requirements.txt
+
 │── .gitignore
 
 ▶️ How to Run Locally
 
 pip install -r requirements.txt
+
 streamlit run nids_main.py
 
 🚀 Future Scope
